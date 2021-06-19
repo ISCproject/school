@@ -1,1 +1,2 @@
-# safenet.github.io
+https://iscproject.github.io/school/ 
+https://safenet.school
