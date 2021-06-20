@@ -3,19 +3,174 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="safenet.school">
-    <meta name="generator" content="mvchn">
-    <title>safenet.school</title>
+    <meta name="description" content="Інтернет – безпечний для дітей">
+    <meta name="author" content="mvchn.github.io">
+    <title>SafeNet School</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="cheatsheet.css" rel="stylesheet">
 </head>
-<body>
+<body class="bg-light">
 
-<main>
-    
-    <h1>Hello</h1>
-    <p>Hello, I am safenet.school</p>
+<aside class="bd-aside sticky-xl-top text-muted align-self-start mb-3 mb-xl-5 px-2">
+    <h2 class="h6 pt-4 pb-3 mb-4 border-bottom">On this page</h2>
+    <nav class="small" id="toc">
+        <ul class="list-unstyled">
+            <li class="my-2">
+                <button class="btn d-inline-flex align-items-center collapsed" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#contents-collapse" aria-controls="contents-collapse">Home</button>
+                <ul class="list-unstyled ps-3 collapse" id="contents-collapse">
+                    <li><a class="d-inline-flex align-items-center rounded" href="#typography">Home</a></li>
 
-</main>
+
+                </ul>
+            </li>
+            <li class="my-2">
+                <button class="btn d-inline-flex align-items-center collapsed" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#forms-collapse" aria-controls="forms-collapse">History</button>
+                <ul class="list-unstyled ps-3 collapse" id="forms-collapse">
+                    <li><a class="d-inline-flex align-items-center rounded" href="#history">History</a></li>
+                </ul>
+            </li>
+            <li class="my-2">
+                <button class="btn d-inline-flex align-items-center collapsed" data-bs-toggle="collapse" aria-expanded="false" data-bs-target="#components-collapse" aria-controls="components-collapse">Team</button>
+                <ul class="list-unstyled ps-3 collapse" id="components-collapse">
+                    <li><a class="d-inline-flex align-items-center rounded" href="#team">Team</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</aside>
+
+<div class="bd-cheatsheet container-fluid bg-body">
+    <section id="content">
+        <h2 class="sticky-xl-top fw-bold pt-3 pt-xl-5 pb-2 pb-xl-3">Contents</h2>
+
+        <article class="my-3" id="typography">
+            <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                <h3>Home</h3>
+                <a class="d-flex align-items-center" href="#home">Home</a>
+                <a class="d-flex align-items-center" href="#history">History</a>
+                <a class="d-flex align-items-center" href="#team">Team</a>
+            </div>
+
+            <div>
+                <div class="bd-example">
+                    <p class="display-3">Інтернет – безпечний для дітей</p>
+                    <p class="h3">Safe Internet School, Школа безпечного інтернету</p>
+                </div>
+
+                <div class="bd-example">
+                    <p class="lead">Наша місія – допомогти сім'ям почуватись безпечно в інтернеті</p>
+                    <p>Ми розповідаємо дітям та їхнім батькам, як працюює інтернет з позиції безпеки:</p>
+                    <ul>
+                        <li><b>дітям</b> – чесні казки про безпеку в інтернеті</li>
+                        <li><b>батькам/опікунам</b> – які казки про безпеку в інтернеті краще не розказувати дітям, а на які варто звенути увагу</li>
+                    </ul>
+                </div>
+            </div>
+        </article>
+
+        <article class="mt-3 mb-5 pb-5" id="card">
+            <div class="bd-heading sticky-xl-top align-self-start mt-5 mb-3 mt-xl-0 mb-xl-2">
+                <h3>Cards</h3>
+            </div>
+
+            <div>
+                <div class="bd-example">
+                    <div class="row  row-cols-1 row-cols-md-2 g-4">
+                        <div class="col">
+                            <div class="card">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Навчаємо батьків</h5>
+                                            <p class="card-text">Лекції та вебінари для батьків, опікунів, вчителів про базові правила безпеки дітей в інтернеті</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Навчаємо дітей</h5>
+                                            <p class="card-text">Онлайн та офлайн зустрічі з дітьми у форматі уроку-гри на теми різних аспектів безпеки в інтернеті</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
+
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Досліджуємо тему</h5>
+                                            <p class="card-text">Ділимося узагальненою інформацією про небезпеки, з якими діти стикаються в інтернеті</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <svg class="bd-placeholder-img" width="100%" height="250" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Image" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#868e96"/><text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image</text></svg>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Ділимося інструкціями</h5>
+                                            <p class="card-text">Ділимося найактуальнішими рекомендаціями щодо найпоширенших проблем безпеки дітей в інтернеті</p>
+                                            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </section>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
 
 </body>
 </html>
